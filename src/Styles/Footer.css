@@ -1,0 +1,17 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0 1.5rem 0 ;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-bottom{
+    display: flex;
+    gap: 40px;
+}
+.nav-bottom a {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

@@ -1,0 +1,58 @@
+#education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.educate{
+    display: flex;
+    flex-direction: column;
+}
+
+.liner {
+    display: flex;
+    align-items: center;
+    margin: 0 8rem;
+}
+.liner-circle {
+    width: 16px;
+    height: 16px;
+    background-color: rgba(213, 213, 213, 0.7);
+    border-radius: 100%;
+}
+.liner-pipe {
+    height: 2px;
+    width: 26rem;
+    background-color: rgba(213, 213, 213, 0.7);
+}
+
+.edu-text-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edu-text{
+    display: flex;
+    justify-content: center;
+    gap: 13rem;
+}
+
+.edu-place{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+.edu-desc{
+    font-size: 0.9rem;
+    margin-top: 0;
+    color: rgba(85,85,85);
+}
+
+
+
+
+
+ 

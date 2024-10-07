@@ -1,0 +1,79 @@
+.exp{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+}
+
+.exp-head{
+    font-size: 3rem;
+    margin: 1rem 0 5rem 0;
+}
+
+.exp-p{
+    font-weight: 600;
+    color: rgba(85,85,85);
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.sub-head{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem;
+    color: rgba(85,85,85);
+    text-align: center;
+    margin-top: 0;
+}
+
+.exp-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.exp-box{
+    width: 28rem;
+    /* border: solid rgba(85,85,85, 0.5) 0.1rem;
+    border-radius: 1.2rem; */
+    padding: 1.5rem 2.5rem;
+
+    border: solid #bcbcbc 1px;
+    border-radius: 12px;
+    /* padding: 15px; */
+}
+.exp-list{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.exp-list h1{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.exp-list p{
+    color: rgba(85,85,85);
+    font-size: 0.8rem;
+    margin-top: 0;
+    width: 25rem;
+}
+
+
+.point{
+    display: flex;
+    gap: 10px;
+    /* font-size: 2rem; */
+    /* width: 18px;
+    height: 18px; */
+    text-align: left;
+}
+
+
+#chevron{
+    font-size: 1rem;
+}

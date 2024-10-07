@@ -1,0 +1,85 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 16vh;
+}
+nav h1{
+    font-size: 28px;
+    font-weight: 500;
+    /* padding-right: 100px ; */
+}
+.nav-right{
+    display: flex;
+    gap: 40px;
+}
+.nav-right a {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* MOBILE NAV */
+
+.hamburg-nav{
+    display: none;
+}
+
+.hamburg-menu{
+    padding-top: 12px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu-icon{
+    font-size: 30px;
+}
+.icon-close{
+    display: none;
+    font-size: 35px;
+}
+
+.menu-right{
+    position: absolute;
+    max-height: 0;
+    width: fit-content;
+    right: 0;
+    top: 100%;
+    overflow: hidden;
+}
+
+.menu-right a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    transition: 300ms ease;
+
+}
+
+.opt:hover{
+    color: rgb(85, 85, 85);
+    text-decoration: underline;
+    text-decoration-color: rgb(172, 172, 172) ;
+    text-underline-offset: 1rem;
+}
+
+.menu-right.show{
+    max-height: 250px;
+    z-index: 1;
+}
+
+.menu-right.show {
+    display: block;
+  }
+.icon-close.show{
+    display: block;
+}
+.menu-icon.hide{
+    display: none;
+}
+
+/* MEDIA SCREEN */
+

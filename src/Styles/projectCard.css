@@ -1,0 +1,56 @@
+.cardProject{
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+border: solid #bcbcbc 1px;
+border-radius: 12px;
+padding: 15px;
+}
+
+.projectCard-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cardProject img{
+    width: 18.6rem;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+}
+
+.cardProject h1{
+    font-size: 1.8rem;
+    margin: 1rem 1rem 0 1rem;
+}
+.cardProject p{
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: rgba(85,85,85);
+}
+
+.wrapp-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapp-btn button{
+    padding: 0.5rem;
+    font-weight: 600;
+    border: solid rgba(85,85,85, 0.75) 0.1rem ;
+    background-color: unset;
+    border-radius: 2rem;
+    width: 7.5rem;
+    color: rgba(50,50,50);
+}
+
+.wrapp-btn button:hover{
+    color: white;
+    background-color: rgba(50,50,50);
+    border: solid rgba(50,50,50) 0.1rem;
+    cursor: pointer;
+    transition: ease 0.3s;
+}

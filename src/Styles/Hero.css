@@ -1,0 +1,100 @@
+.hero-sec{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    height: 70vh;
+    padding-top: 5vh;
+    margin: 0 10rem;
+    /* padding-bottom: 2rem; */
+    /* margin-bottom: 3rem; */
+    box-sizing: border-box;
+    min-height: fit fit-content;
+}
+
+.hero-pic{
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    z-index: -1;
+}
+
+.hero-pic img{
+    width: 26rem;
+}
+
+.hero-text{
+    align-self: center;
+    text-align: center;
+}
+
+.hero-text p{
+    font-weight: 600;
+    color: rgba(85,85,85);
+   
+}
+
+.p1{
+font-size: 1.2rem;
+margin-bottom: 0;
+}
+.p2{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+
+.hero-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.hero-icon{
+    font-size: 1.8rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn{
+    padding: 1rem;
+    font-weight: 600;
+    transition: all 300ms ease;
+    width: 9.9rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.portfo, .cv:hover{
+    border: solid rgb(50, 50, 50) 0.1rem ;
+    color: white;
+    transition: ease 0.3s;
+}
+.cv{
+    background: none;
+}
+.cv:hover{
+    background-color: rgb(50, 50, 50);
+}
+.portfo{
+    background: rgb(50, 50, 50);
+    color: white;
+}
+.portfo:hover{
+    background-color: white;
+    color: rgb(50, 50, 50);
+    transition: ease 0.3s;
+}
