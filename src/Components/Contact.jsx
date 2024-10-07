@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Styles/Contact.css'
-import { MdEmail } from "react-icons/md";
-import { FaLine } from "react-icons/fa";
-import { FaPhoneSquare } from "react-icons/fa";
+import line from '../assets/Icon/line.png'
+import email from '../assets/Icon/email.png'
+import phone from '../assets/Icon/phone.png'
 import {motion} from 'framer-motion'
 
 
@@ -42,7 +42,9 @@ export default function Contact() {
           viewport={{margin: "-150px"}}
         >
           <div className='contact-container'>
-              <div><MdEmail className="icon-con" /></div>
+              <div>
+                <img src={email} className='icon-contact' alt="" />
+              </div>
 
                 <div className='con'>
                   <h4 className="contact-point">Email</h4>
@@ -51,7 +53,9 @@ export default function Contact() {
           </div>
 
           <div className='contact-container'>
-              <div><FaLine className="icon-con lineIcon" /></div>
+              <div>
+                <img src={line} className='icon-contact' alt="" />
+              </div>
 
                 <div className='con'>
                   <h4 className="contact-point">Line</h4>
@@ -60,7 +64,9 @@ export default function Contact() {
           </div>
 
           <div className='contact-container'>
-              <div><FaPhoneSquare className="icon-con phoneIcon" /></div>
+              <div>
+                <img src={phone} className='icon-contact' alt="" />
+              </div>
 
                 <div className='con'>
                   <h4 className="contact-point">Phone Number</h4>

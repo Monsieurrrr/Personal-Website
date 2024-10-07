@@ -3,9 +3,11 @@ import pp from '../assets/Hero/pp.png'
 import '../Styles/Hero.css'
 import cv from '../assets/CV/CV.pdf'
 import portfo from '../assets/CV/Portfolio.pdf'
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
+
+import github from '../assets/Icon/github.png'
+import linkedin from '../assets/Icon/linkedin.png'
+import instagram from '../assets/Icon/instagram.png'
+
 import {useTypewriter} from 'react-simple-typewriter'
 import {motion} from 'framer-motion'
 
@@ -67,9 +69,9 @@ export default function Hero() {
             </div>
 
             <div className='hero-social'>
-                <FaLinkedin onClick={openLinked} className='hero-icon'/>
-                <FaGithub onClick={openGit} className='hero-icon'/>
-                <RiInstagramFill onClick={openIG} className='hero-icon'/>
+                <img src={linkedin} alt="" onClick={openLinked} className='hero-icon'/>
+                <img src={github} alt="" onClick={openGit} className='hero-icon'/>
+                <img src={instagram} alt="" onClick={openIG} className='hero-icon'/>
             </div>
 
         </motion.div>

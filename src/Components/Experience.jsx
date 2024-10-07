@@ -1,7 +1,6 @@
 import React from 'react'
 import "../Styles/Experience.css"
-import { TbPointFilled } from "react-icons/tb";
-import { FaChevronRight } from "react-icons/fa";
+import chevronRight from '../assets/Icon/chevron-right.png'
 import {motion} from 'framer-motion'
 
 
@@ -32,7 +31,7 @@ export default function Experience() {
 
                 <div className='exp-list'>
                     <div className='point'>
-                    <FaChevronRight id= 'chevron'/>
+                    <img src={chevronRight} id= 'chevron' alt="" />
                     <div>
                         <h1>Remote intership as UI/UX Designer at PT. CIN (July 2024 - Oct 2024)</h1>
                         <p>Conducted research and designed a responsive application design that focuses on the veterinary clinic POS system with an easy and user-friendly interface.
@@ -51,28 +50,28 @@ export default function Experience() {
 
                 <div className='exp-list'>
                     <div className='point'>
-                    <FaChevronRight id= 'chevron' />
+                        <img src={chevronRight} id= 'chevron' alt="" />
                         <h1>Freshmen Partner B2027 at Binus University (Sept 2023 - July 2024)</h1>
                     </div>
                 </div>
 
                 <div className='exp-list'>
                     <div className='point'>
-                    <FaChevronRight id= 'chevron'/>
+                    <img src={chevronRight} id= 'chevron' alt="" />
                         <h1>Social campaign on “TOLERANCE FROM EARLY AGE” at SMK YADIKA 1 (2023)</h1>
                     </div>
                 </div>
 
                 <div className='exp-list'>
                     <div className='point'>
-                    <FaChevronRight id= 'chevron' />
+                    <img src={chevronRight} id= 'chevron' alt="" />
                         <h1>Social campaign on ACHIEVEMENT WITHOUT DRUGS” at Taman Anggrek Mall, West Jakarta (2022)</h1>
                     </div>
                 </div>
 
                 <div className='exp-list'>
                     <div className='point'>
-                    <FaChevronRight id= 'chevron' />
+                    <img src={chevronRight} id= 'chevron' alt="" />
                         <h1>Kampanye sosial mengenai “INDONESIA SEHAT TANPA KORUPSI” di Central Park Mall, Jakarta Barat (2022)</h1>
                     </div>
                 </div>

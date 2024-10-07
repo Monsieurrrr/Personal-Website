@@ -13,8 +13,8 @@ export default function Footer() {
         <div className='nav-bottom'>
                     <p><a href="#about" className='opt'>About</a></p>
                     <p><a href="#experience" className='opt'>Experiences</a></p>
-                    <p><a href="#project" className='opt'>Projects</a></p>
-                    <p><a href="#education" className='opt'>Educations</a></p>
+                    <p><a href="#project" className='opt'>Project</a></p>
+                    <p><a href="#education" className='opt'>Education</a></p>
                     <p><a href="#contact" className='opt'>Contact</a></p>
         </div>
 

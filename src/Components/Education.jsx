@@ -3,6 +3,7 @@ import '../Styles/Education.css'
 import { useTypewriter } from 'react-simple-typewriter';
 import {motion} from 'framer-motion'
 
+
 export default function Education() {
 
   const [text1] = useTypewriter({

@@ -1,18 +1,17 @@
 import React from 'react'
 import '../Styles/About.css';
 import photo from '../assets/about_me.jpg'
-import { FaFigma } from "react-icons/fa6";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaJsSquare } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { FaJava } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
-import { SiVite } from "react-icons/si";
-import { RiAlibabaCloudLine } from "react-icons/ri";
-import { SiClickup } from "react-icons/si";
-import { SiCanva } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
+
+import html from '../assets/Icon/html.png'
+import css from '../assets/Icon/css.png'
+import js from '../assets/Icon/js.png'
+import react from '../assets/Icon/react.png'
+import java from '../assets/Icon/java.png'
+import github from '../assets/Icon/github.png'
+import mysql from '../assets/Icon/mysql.png'
+import vite from '../assets/Icon/vite.png'
+import figma from '../assets/Icon/figma.png'
+import canva from '../assets/Icon/canva.png'
 
 import {motion} from 'framer-motion'
 import IconStack from './IconStack';
@@ -22,51 +21,51 @@ export default function About() {
     const data = [
         {
             id: 1,
-            icon: <FaHtml5 />,
+            icon: html,
             name: "HTML5"
         },{
             id: 2,
-            icon: <FaCss3Alt />,
+            icon: css,
             name: "CSS3"
         },{
             id: 3,
-            icon: <FaJsSquare />,
+            icon: js,
             name: "JavaScript"
         },{
             id: 4,
-            icon: <FaReact />,
+            icon: react,
             name: "React"
         },{
             id: 5,
-            icon: <FaJava />,
+            icon: java,
             name: "Java"
         },{
             id: 6,
-            icon: <FaGithub />,
+            icon: github,
             name: "GitHub"
         },{
             id: 7,
-            icon: <SiMysql />,
+            icon: mysql,
             name: "MySQL"
         },{
             id: 8,
-            icon: <SiVite />,
+            icon: vite,
             name: "Vite"
         },{
             id: 9,
-            icon: <RiAlibabaCloudLine />,
+            icon: "",
             name: "AlibabaCloud"
         },{
             id: 10,
-            icon: <SiClickup />,
+            icon: "",
             name: "ClickUp"
         },{
             id: 11,
-            icon: <FaFigma />,
+            icon: figma,
             name: "Figma"
         },{
             id: 12,
-            icon: <SiCanva />,
+            icon: canva,
             name: "Canva"
         }
 
@@ -97,8 +96,8 @@ export default function About() {
             </motion.div>
         
             <motion.div className='about-text'
-            initial = {{opacity: 0, scale: 1, x: 100}}
-            whileInView={{opacity: 1, scale: 1, x: 0}}
+            initial = {{opacity: 0, scale: 1}}
+            whileInView={{opacity: 1, scale: 1}}
             transition={{duration: 1}}
             viewport={{margin: "-150px"}}
 

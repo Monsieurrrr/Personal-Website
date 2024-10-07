@@ -7,13 +7,14 @@
     gap: 0.5rem;
     border-radius: 0.7rem;
     width: fit-content;
-    /* width: 6rem; */
-    /* font-size: 1rem; */
+
 }
 
 .icon-stack{
-    font-size: 1.5rem;
     padding-top: 0.35rem;
+}
+.icon-stack img{
+    width: 2rem;
 }
 .icon-name{
     font-size:0.8rem;
