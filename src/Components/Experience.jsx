@@ -72,7 +72,7 @@ export default function Experience() {
                 <div className='exp-list'>
                     <div className='point'>
                     <img src={chevronRight} id= 'chevron' alt="" />
-                        <h1>Kampanye sosial mengenai “INDONESIA SEHAT TANPA KORUPSI” di Central Park Mall, Jakarta Barat (2022)</h1>
+                        <h1>Social campaign on “INDONESIA SEHAT WITHOUT CORRUPTION” at Central Park Mall, West Jakarta (2022)</h1>
                     </div>
                 </div>
                     

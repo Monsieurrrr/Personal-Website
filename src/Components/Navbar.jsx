@@ -23,7 +23,7 @@ const Navbar = () =>{
             viewport={{once: true}}
         >
             <nav className='navbar'>
-                <div><h1>My Portfolio</h1></div>
+                <div><h1>My Journey</h1></div>
     
                 <div className='nav-right'>
                     <p><a href="#about" className='opt'>About</a></p>
@@ -35,7 +35,7 @@ const Navbar = () =>{
             </nav>
     
             <nav className='hamburg-nav'>
-                 <div><h1>My Portfolio</h1></div>
+                 <div><h1>My Journey</h1></div>
               <div className='hamburg-menu'>
                 <div className={`menu-icon ${Open ? 'hide' : ''}`} onClick={toggleMenu}>
                     <img src={hamburg} alt="" className='icon-mobile' />
