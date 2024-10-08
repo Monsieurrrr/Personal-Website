@@ -38,10 +38,10 @@ const Navbar = () =>{
                  <div><h1>My Portfolio</h1></div>
               <div className='hamburg-menu'>
                 <div className={`menu-icon ${Open ? 'hide' : ''}`} onClick={toggleMenu}>
-                    <img src={hamburg} alt="" />
+                    <img src={hamburg} alt="" className='icon-mobile' />
                 </div>
                 <div className={`icon-close ${Open ? 'show' : ''}`} onClick={toggleMenu}>
-                    <img src={cross} alt="" />
+                    <img src={cross} alt="" className='icon-mobile' />
                 </div>
 
                 <div className={`menu-right ${Open ? 'show' : ''}`}>

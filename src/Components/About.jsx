@@ -86,8 +86,8 @@ export default function About() {
 
         <div className='about-sec'>
             <motion.div className='about-pic'
-            initial = {{opacity: 0, scale: 0.8, x: -100, y:-20}}
-            whileInView={{opacity: 1, scale: 1, x: 0, y:0}}
+            initial = {{opacity: 0, scale: 0.8, y:10}}
+            whileInView={{opacity: 1, scale: 1, y:0}}
             transition={{duration: 0.9}}
             viewport={{margin: "-140px"}}
 
@@ -96,8 +96,8 @@ export default function About() {
             </motion.div>
         
             <motion.div className='about-text'
-            initial = {{opacity: 0, scale: 1}}
-            whileInView={{opacity: 1, scale: 1}}
+            initial = {{opacity: 0, scale: 0.8, y:10}}
+            whileInView={{opacity: 1, scale: 1, y:0}}
             transition={{duration: 1}}
             viewport={{margin: "-150px"}}
 

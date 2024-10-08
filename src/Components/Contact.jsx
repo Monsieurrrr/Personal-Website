@@ -18,7 +18,7 @@ export default function Contact() {
         transition={{duration: 1.2}}
         viewport={{margin: "-150px"}}
       >
-        <div className="sub-title">Where To Find</div>
+        <div className="sub-title">Get In Touch</div>
         <div className="title">Contact Me</div>
         </motion.div>
 

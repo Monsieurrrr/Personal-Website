@@ -36,6 +36,14 @@
 
 }
 
+@media screen and (max-width: 980px){
+    .all-projectCard{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+    }
+}
+
 @media screen and (max-width: 415px){
 
     #experience, .exp-wrapper{

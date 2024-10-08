@@ -30,19 +30,19 @@ export default function Project() {
         photo: dewataIsland,
         name: "CLminton",
         desc: "JAVA - SQL",
-        link: "-"
+        link: "https://github.com/Monsieurrrr/CLminton-javaFX"
       },{
         id: 5,
         photo: dewataIsland,
         name: "ThriftIt",
         desc: "Figma",
-        link: "-"
+        link: "https://www.figma.com/proto/8mFwQipX5hGTYOPZlUeBIo/ThriftIt?node-id=1-5&node-type=canvas&t=Wp5Srjm8waOaxHYz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3"
       },{
         id: 6,
         photo: dewataIsland,
         name: "Skintastic",
         desc: "Figma",
-        link: "-"
+        link: "https://www.figma.com/proto/tuRrInWVNnz9n5DIIkStku/Skintastic?node-id=37-618&node-type=canvas&t=YmSpqUqySVpJFcND-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A5&show-proto-sidebar=1"
       }
   ]
 

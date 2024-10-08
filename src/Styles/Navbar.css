@@ -31,12 +31,11 @@ nav h1{
     display: inline-block;
 }
 
-.menu-icon{
-    font-size: 30px;
+.icon-mobile{
+    width: 2.5rem;
 }
 .icon-close{
     display: none;
-    font-size: 35px;
 }
 
 .menu-right{

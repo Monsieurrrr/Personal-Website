@@ -39,7 +39,7 @@ export default function Education() {
                   // viewport={{margin: "-150px"}}
                 ></motion.div>
                 <motion.div className="liner-pipe"
-                  initial = {{opacity: 0, scale: 0.5, x: 100}}
+                  initial = {{opacity: 0, scale: 0.5, x: 50}}
                   whileInView={{opacity: 1, scale: 1, x: 0}}
                   transition={{duration: 1}}
                   // viewport={{margin: "-150px"}}
@@ -51,7 +51,7 @@ export default function Education() {
                   // viewport={{margin: "-150px"}}                
                 ></motion.div>
                 <motion.div className="liner-pipe"
-                  initial = {{opacity: 0.5, scale: 0.5, x: -100}}
+                  initial = {{opacity: 0.5, scale: 0.5, x: -50}}
                   whileInView={{opacity: 1, scale: 1, x: 0}}
                   transition={{duration: 1}}
                   // viewport={{margin: "-120px"}}
