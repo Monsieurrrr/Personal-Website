@@ -2,6 +2,12 @@ import React from 'react'
 import '../Styles/Project.css'
 import ProjectCard from './projectCard'
 import dewataIsland from '../assets/MockUp/dewataIsland.png'
+import personal from '../assets/MockUp/personal.png'
+import wheelhub from '../assets/MockUp/wheelhub.png'
+import thriftit from '../assets/MockUp/thriftit.png'
+import clminton from '../assets/MockUp/clminton.png'
+import skintastic from '../assets/MockUp/skintastic.png'
+
 import {motion} from 'framer-motion'
 
 
@@ -9,10 +15,10 @@ export default function Project() {
   const data = [
       {
         id: 1,
-        photo: dewataIsland,
-        name: "My Portfolio",
+        photo: personal,
+        name: "Personal Website",
         desc: "React.js",
-        link: "-"
+        link: "https://github.com/Monsieurrrr/Personal-Website"
       },{
         id: 2,
         photo: dewataIsland,
@@ -21,25 +27,25 @@ export default function Project() {
         link: "https://dewata-island.vercel.app/"
       },{
         id: 3,
-        photo: dewataIsland,
+        photo: wheelhub,
         name: "WheelHub",
         desc: "HTML - CSS - JS",
         link: "https://wheel-hub-beta.vercel.app/"
       },{
         id: 4,
-        photo: dewataIsland,
+        photo: clminton,
         name: "CLminton",
         desc: "JAVA - SQL",
         link: "https://github.com/Monsieurrrr/CLminton-javaFX"
       },{
         id: 5,
-        photo: dewataIsland,
+        photo: thriftit,
         name: "ThriftIt",
         desc: "Figma",
         link: "https://www.figma.com/proto/8mFwQipX5hGTYOPZlUeBIo/ThriftIt?node-id=1-5&node-type=canvas&t=Wp5Srjm8waOaxHYz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3"
       },{
         id: 6,
-        photo: dewataIsland,
+        photo: skintastic,
         name: "Skintastic",
         desc: "Figma",
         link: "https://www.figma.com/proto/tuRrInWVNnz9n5DIIkStku/Skintastic?node-id=37-618&node-type=canvas&t=YmSpqUqySVpJFcND-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A5&show-proto-sidebar=1"
