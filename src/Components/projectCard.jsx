@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/projectCard.css'
 
-export default function projectCard({photo, nameProject, desc, link}) {
+export default function projectCard({photo, nameProject, desc, link, button}) {
   return (
     <div className='cardProject'>
       <div className='projectCard-wrap'>
@@ -11,7 +11,7 @@ export default function projectCard({photo, nameProject, desc, link}) {
         </div>
         
         <div className='wrapp-btn'>
-        <a href={link}><button>Project</button></a>
+        <a href={link}><button>{button}</button></a>
         </div>
     </div>
   )

@@ -2,70 +2,70 @@ import React from 'react'
 import '../Styles/About.css';
 import photo from '../assets/about_me.jpg'
 
-import html from '../assets/Icon/html.png'
-import css from '../assets/Icon/css.png'
-import js from '../assets/Icon/js.png'
-import react from '../assets/Icon/react.png'
-import java from '../assets/Icon/java.png'
-import github from '../assets/Icon/github.png'
-import mysql from '../assets/Icon/mysql.png'
-import vite from '../assets/Icon/vite.png'
-import figma from '../assets/Icon/figma.png'
-import canva from '../assets/Icon/canva.png'
+// import html from '../assets/Icon/html.png'
+// import css from '../assets/Icon/css.png'
+// import js from '../assets/Icon/js.png'
+// import react from '../assets/Icon/react.png'
+// import java from '../assets/Icon/java.png'
+// import github from '../assets/Icon/github.png'
+// import mysql from '../assets/Icon/mysql.png'
+// import vite from '../assets/Icon/vite.png'
+// import figma from '../assets/Icon/figma.png'
+// import canva from '../assets/Icon/canva.png'
 
-import {motion} from 'framer-motion'
 import IconStack from './IconStack';
+import {motion} from 'framer-motion'
 
 
 export default function About() {
     const data = [
         {
             id: 1,
-            icon: html,
+            icon: "https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white",
             name: "HTML5"
         },{
             id: 2,
-            icon: css,
+            icon: "https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white",
             name: "CSS3"
         },{
             id: 3,
-            icon: js,
+            icon: "https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E",
             name: "JavaScript"
         },{
             id: 4,
-            icon: react,
+            icon: "https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB",
             name: "React"
         },{
             id: 5,
-            icon: java,
+            icon: "https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white",
             name: "Java"
         },{
             id: 6,
-            icon: github,
-            name: "GitHub"
+            icon: "https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white",
+            name: "Sql"
         },{
             id: 7,
-            icon: mysql,
-            name: "MySQL"
+            icon: "https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white",
+            name: "GitHub"
         },{
             id: 8,
-            icon: vite,
+            icon: "https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white",
             name: "Vite"
         },{
             id: 9,
-            icon: "",
+            icon: "https://img.shields.io/badge/AlibabaCloud-%23FF6701.svg?style=flat&logo=alibabacloud&logoColor=white",
             name: "AlibabaCloud"
         },{
             id: 10,
-            icon: "",
-            name: "ClickUp"
+            icon: "https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white",
+            name: "node.js"
         },{
             id: 11,
-            icon: figma,
+            icon: "https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white",
             name: "Figma"
         },{
             id: 12,
-            icon: canva,
+            icon: "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white",
             name: "Canva"
         }
 

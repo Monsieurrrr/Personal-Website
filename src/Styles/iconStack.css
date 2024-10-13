@@ -1,21 +1,4 @@
 .stack{
     display: flex;
-    border: solid rgb(55, 55, 55) 0.1rem;
-    padding: 0 1.2rem;
-    align-items: center;
-    justify-content: center;
     gap: 0.5rem;
-    border-radius: 0.7rem;
-    width: fit-content;
-
-}
-
-.icon-stack{
-    padding-top: 0.35rem;
-}
-.icon-stack img{
-    width: 2rem;
-}
-.icon-name{
-    font-size:0.8rem;
 }

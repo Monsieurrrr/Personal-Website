@@ -16,7 +16,7 @@ const Navbar = () =>{
 
 
     return (
-        <motion.div
+        <motion.div className='nav-container'
             initial = {{opacity: 0, scale: 1}}
             whileInView={{opacity: 1, scale: 1}}
             transition={{duration: 1.5}}

@@ -60,8 +60,14 @@
     }
 
     .about-text{
-        text-align: justify;
-        width: 75%;
+        text-align: start;
+        width: 71.5%;
+
+    }
+    .about-text p{
+        font-size: 1rem;
+        letter-spacing: 1px;
+
     }
 
     .exp-box{
@@ -87,7 +93,6 @@
 
     #chevron{
         width: 0.8rem;
-        /* display: none; */
     }
 
     .all-projectCard{
@@ -158,11 +163,10 @@
         text-align: left;
     }
 
-    /* .edu-text-wrap{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
+  
+    #contact{
+        padding-bottom: 5rem;
+    }
 
 
 
@@ -183,6 +187,9 @@
     }
 
 
+    #footer{
+        margin-bottom: 10rem;
+    }
 
     .nav-bottom{
         display: none
@@ -192,6 +199,7 @@
     }
     #footer{
         padding-top: 1rem;
+        padding-bottom: 2rem;
     }
     .copyright{
         display: flex;
