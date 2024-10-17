@@ -88,6 +88,10 @@ export default function HeadSection() {
               <h1>Role</h1>
               <p>In one full version of this app, tasks are assigned 1 feature per person. I completed the research, wireframe, system design and UI/UX of the application for the apply voucher feature, supported by plugins and my mentor.</p>
             </div>
+            <div className="overview-wrap-text-bawah mobile-text">
+              <h1>Goals</h1>
+              <p>The development of these applications and features aims to expand the range of users who are not limited to the younger generation, but the generations above them can also enjoy using this application. Moreover, we want to increase the efficiency of cashiers or veterinarians by 30% in applying vouchers supported by a user-friendly interface. Lastly, to increase customer engagement and ease of customer transactions by 25%.</p>
+            </div>
           </div>
 
         </div>

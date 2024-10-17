@@ -7,12 +7,12 @@ export default function  Research() {
         <div className='research-container'>
           <div className='img-wrapper2 mockup'><img src={mockup2} alt="" /></div>
         
-          <div><h1 className="title-case">Research</h1></div>
+          {/* <div><h1 className="title-case">Research</h1></div> */}
 
         <div className="research-wrapper">
           <div className="research-text mobile-text">
             <h1>Emphaty</h1>
-            <p>My team consisted of 5 people, each of us conducted interviews with pet shop cashiers or veterinarians and direct observations in the field to understand the problems and what users need. In the meantime, we also conducted competitor analysis to see what we can learn and develop.</p>
+            <p>My team consisted of 5 people, each of us conducted interviews with pet shop cashiers or veterinarians and direct observations in the field to understand the problems and what users need. Overall, we interviewed 10 people from different geographies and demographics. In the meantime, we also conducted competitor analysis to see what we can learn and develop.</p>
           </div>
           <div className="research-text mobile-text">
             <h1>Define</h1>

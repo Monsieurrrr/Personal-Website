@@ -310,4 +310,21 @@
 }
 .img-container{
     margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.img-wrapper4, .img-wrapper5{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-container p{
+    width: 980px;
+    color: rgba(85,85,85);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    line-height: 1.6;
 }
