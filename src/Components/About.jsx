@@ -2,16 +2,7 @@ import React from 'react'
 import '../Styles/About.css';
 import photo from '../assets/about_me.jpg'
 
-// import html from '../assets/Icon/html.png'
-// import css from '../assets/Icon/css.png'
-// import js from '../assets/Icon/js.png'
-// import react from '../assets/Icon/react.png'
-// import java from '../assets/Icon/java.png'
-// import github from '../assets/Icon/github.png'
-// import mysql from '../assets/Icon/mysql.png'
-// import vite from '../assets/Icon/vite.png'
-// import figma from '../assets/Icon/figma.png'
-// import canva from '../assets/Icon/canva.png'
+
 
 import IconStack from './IconStack';
 import {motion} from 'framer-motion'
@@ -60,11 +51,19 @@ export default function About() {
             icon: "https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white",
             name: "node.js"
         },{
-            id: 11,
+            id: 12,
+            icon: "https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white",
+            name: "npm"
+        },{
+            id: 13,
+            icon: "https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white",
+            name: "vercel"
+        },{
+            id: 14,
             icon: "https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white",
             name: "Figma"
         },{
-            id: 12,
+            id: 15,
             icon: "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white",
             name: "Canva"
         }

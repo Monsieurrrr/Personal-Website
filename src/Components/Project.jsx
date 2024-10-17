@@ -7,7 +7,7 @@ import wheelhub from '../assets/MockUp/wheelhub.png'
 import thriftit from '../assets/MockUp/thriftit.png'
 import clminton from '../assets/MockUp/clminton.png'
 import skintastic from '../assets/MockUp/skintastic.png'
-
+import notes from '../assets/MockUp/notes.png'
 import {motion} from 'framer-motion'
 
 
@@ -55,6 +55,13 @@ export default function Project() {
         desc: "Figma",
         link: "https://www.figma.com/proto/tuRrInWVNnz9n5DIIkStku/Skintastic?node-id=37-618&node-type=canvas&t=YmSpqUqySVpJFcND-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A5&show-proto-sidebar=1",
         button:"Prototype"
+      },{
+        id: 7,
+        photo: notes,
+        name: "NOTES",
+        desc: "Figma",
+        link: "/CaseStudy",
+        button:"Case Study"
       }
   ]
 

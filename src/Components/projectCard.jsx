@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/projectCard.css'
+import { Link } from 'react-router-dom'
 
 export default function projectCard({photo, nameProject, desc, link, button}) {
   return (
@@ -11,7 +12,7 @@ export default function projectCard({photo, nameProject, desc, link, button}) {
         </div>
         
         <div className='wrapp-btn'>
-        <a href={link}><button>{button}</button></a>
+        <Link to={link}><button>{button}</button></Link>
         </div>
     </div>
   )

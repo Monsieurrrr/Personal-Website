@@ -12,7 +12,6 @@ nav{
 nav h1{
     font-size: 28px;
     font-weight: 500;
-    /* padding-right: 100px ; */
 }
 .nav-right{
     display: flex;

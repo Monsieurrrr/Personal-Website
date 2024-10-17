@@ -1,0 +1,213 @@
+@media screen and (max-width: 980px){
+
+    .head-wrapper{
+        width: 85%;
+        margin-top: 0;
+    }
+    .head-wrapper h1{
+        width: 90%;
+    }
+    .head-wrapper p{
+        width: 90%;
+    }
+
+    .timeline-point{
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    
+    }
+    .timeline-pipe{
+        height: 2px;
+        width: 12rem;
+    }
+    .timeline-text{
+        gap: 7rem;
+    }
+    .mockup img{
+        width: 90%;
+    }
+    .overview-container{
+        width: 100%;
+    }
+    .overview-atas{
+        display: flex;
+        justify-content: center;
+        gap: 12rem;
+        margin-bottom: 3rem;
+    }
+    .overview-bawah{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width:90%;
+    }
+    .overview-container{
+        margin: 0;
+    }
+    .research-wrapper{
+        width: 90%;
+    }
+    .visual-atas{
+        gap: 4rem;
+    }
+    .visual-wrapper{
+        align-items: center;
+    }
+    .box{
+        width: 7rem;
+        height: 7rem;
+        gap: 1rem;
+    }
+    .sample h2{
+        font-size: 5rem;
+    }
+    .tool-figma img{
+        width: 9rem;
+    }
+    input{
+        width: 22rem;
+    }
+    textarea{
+        width: 22rem;
+    }
+
+}
+
+@media screen and (max-width: 670px){
+    .timeline-pipe{
+        height: 2px;
+        width: 8rem;
+    }
+    .timeline-text{
+        gap: 3rem;
+    }
+    .overview-atas{
+        gap: 5rem;
+    }
+    .box{
+        width: 5rem;
+        height: 5rem;
+        gap: 1rem;
+    }
+    input{
+        width: 19rem;
+    }
+    textarea{
+        width: 19rem;
+    }
+    .contact-wrap{
+        gap: 30px;
+    }
+    .overview-wrap-text-atas{
+        /* text-align: center; */
+        
+    }
+}
+
+@media screen and (max-width:415px ){
+    .nav-study{
+        padding: 0 1.2rem;
+    }
+    .nav-study h1{
+        font-size: 16px;
+    }
+
+    .headSection h1{
+        font-size: 2.5rem;
+        font-weight: 500;
+        width: 100%;
+    }
+    .headSection p{
+        font-size: 1rem;
+    }
+
+    .timeline-wrapper{
+        display: flex;
+        align-items: center;
+    }
+    .timeline{
+        flex-direction: column;
+        margin: 0 2rem 0 0;
+    }
+    .timeline-pipe{
+        height: 5rem;
+        width: 2px;
+    }
+    .timeline-text{
+        gap: 2.5rem;
+        flex-direction: column;
+    }
+    .timeline-text-wrapper{
+        /* text-align: left; */
+        align-items: flex-start;
+    }
+    .overview-atas{
+        gap: 2rem;
+        
+    }
+    .overview-atas h2{
+        font-size: 1.2rem;
+    }
+    .overview-atas p{
+        font-size: 0.8rem;
+    }
+    .mobile-text h1{
+        font-size: 2rem;
+    }
+    .mobile-text p{
+        font-size: 1rem;
+    }
+    .title-case{
+        font-size: 2.6rem;
+        margin-top: 0;
+        margin-bottom: 3.5rem;
+    }
+
+    .visual-atas{
+        gap: 2rem;
+        margin-bottom: 1rem;
+    }
+    .visual-bawah h1{
+        font-size: 1.2rem;
+        margin-bottom: 1.6rem;
+    }
+    .visual-wrapper{
+        align-items: center;
+    }
+    .box{
+        width: 3rem;
+        height: 3rem;
+        gap: 1rem;
+    }
+    .pallete{
+        gap: 0.5rem;
+    }
+    .pallete p{
+        font-size: 0.8rem;
+    }
+    .visual-atas h1{
+        font-size: 1.2rem;
+    }
+    .sample-wrapper{
+        gap: 0.5rem;
+    }
+    .sample h2{
+        font-size: 3rem;
+        margin: 1.6rem 0 0 0;
+    }
+    .sample p{
+        font-size: 0.8rem;
+    }
+    .tool-figma img{
+        width: 3.5rem;
+    }
+    input{
+        width: 18rem;
+    }
+    textarea{
+        width: 18rem;
+    }
+
+
+}

@@ -1,14 +1,24 @@
 
 import './App.css'
 import Home from './Pages/Home'
+import CaseStudy from './Pages/CaseStudy'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-function App() {
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>
+}
+,{
+  path: "/casestudy",
+  element: <CaseStudy/>
+}
+])
 
-  return (
-  <div>
-    <Home/>
+export default function App(){
+  return(
+    <div>
+    <RouterProvider router = {router} />
   </div>
   )
 }
-
-export default App
