@@ -68,7 +68,7 @@ export default function Project() {
         photo: notes,
         name: "NOTES",
         desc: "Figma",
-        link: "/CaseStudy",
+        link: "/case-study",
         button:"Case Study"
       }
   ]
