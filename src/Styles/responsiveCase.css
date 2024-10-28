@@ -80,6 +80,12 @@
 
 }
 
+@media screen and (max-width: 780px){
+    .overview-atas{
+        gap: 6.5rem;
+    }
+}
+
 @media screen and (max-width: 670px){
     .timeline-pipe{
         height: 2px;

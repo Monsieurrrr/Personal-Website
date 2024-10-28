@@ -2,6 +2,7 @@ import React from 'react'
 import mockup4 from '../assets/MockUp/notes 3.png'
 import mockup5 from '../assets/MockUp/notes 4.png'
 import mockup3 from '../assets/MockUp/notes 5.png'
+import mockup6 from '../assets/MockUp/notes 6.png'
 import figma from '../assets/Icon/figma2.png'
 
 export default function Visual() {
@@ -9,6 +10,7 @@ export default function Visual() {
     <div>
         
         <div className='visual-container'>
+            <div className='mockup'> <img src={mockup6} alt="" /></div>
             <div className='img-wrapper3 mockup'><img src={mockup3} alt="" /></div>
 
         <div className="visual-wrapper">
